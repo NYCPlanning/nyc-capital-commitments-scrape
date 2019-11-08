@@ -3,7 +3,7 @@ Use pdftotext on the command line to turn the capital commitment plan pdf into t
 The command for a single pdf looks like:
 `pdftotext -fixed 5.3 -layout ccp-10-18a.pdf ccp-10-18a.txt`
 
-Use `sh pdf-to-text.sh ../ccp-10-18/pdf` to process a whole directory of pdfs, which will make a corresponding txt file for each in `/txt` under the same directory
+Use `sh scripts/pdf-to-text.sh data/fy20/pdf` to process a whole directory of pdfs, which will make a corresponding txt file for each in `/txt` under the same directory
 
 
 
